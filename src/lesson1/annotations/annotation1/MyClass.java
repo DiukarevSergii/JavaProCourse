@@ -1,4 +1,4 @@
-package lesson1.annotations.myAnnotations;
+package lesson1.annotations.annotation1;
 
 import java.lang.reflect.Field;
 

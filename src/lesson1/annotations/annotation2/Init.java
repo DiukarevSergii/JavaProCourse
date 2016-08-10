@@ -1,4 +1,4 @@
-package lesson1.annotations;
+package lesson1.annotations.annotation2;
 
 import java.lang.annotation.*;
 
