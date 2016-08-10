@@ -1,4 +1,4 @@
-package lesson1.reflection;
+package lesson01.reflection;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
@@ -21,6 +21,5 @@ public class Main {
             }
         }
         System.out.println(z.getI());
-        //
     }
 }

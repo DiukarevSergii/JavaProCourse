@@ -1,4 +1,4 @@
-package lesson1.reflection;
+package lesson01.reflection;
 
 public class Znachenie {
     private int i = 4;

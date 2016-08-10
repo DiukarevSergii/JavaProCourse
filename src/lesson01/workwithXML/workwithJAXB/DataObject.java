@@ -1,4 +1,4 @@
-package lesson1.workwithXML.workwithJAXB;
+package lesson01.workwithXML.workwithJAXB;
 
 import javax.xml.bind.annotation.*;
 import java.util.List;

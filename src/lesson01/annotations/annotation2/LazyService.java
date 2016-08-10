@@ -1,4 +1,4 @@
-package lesson1.annotations.annotation2;
+package lesson01.annotations.annotation2;
 
 @Service(name = "NameOfLazyService")
 public class LazyService {
