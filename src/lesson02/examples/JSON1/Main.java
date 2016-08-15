@@ -18,7 +18,7 @@ public class Main {
         String result = performRequest(request);
 
         Gson gson = new GsonBuilder().create();
-        JSON json = (JSON) gson.fromJson(result, JSON.class);
+        JSON json =  gson.fromJson(result, JSON.class);
 
         for (Rate rate : json.query.results.rate) {
             System.out.println(rate.id + " = " + rate.Rate);

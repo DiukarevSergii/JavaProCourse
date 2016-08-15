@@ -76,7 +76,8 @@ public class PrintRAF {
     public static void allMethods(RandomAccessFile randomAccessFile) {
         Method[] methods = randomAccessFile.getClass().getDeclaredMethods();
         System.out.println("All the declared methods. " +
-                "Public, protected, default (package) access, and private methods, but excluding inherited methods: "
+                "Public, protected, default (package) access, and private methods, " +
+                "but excluding inherited methods: "
                 + methods.length);
         for (Method method : methods) {
             System.out.println("\t" + method.getName());

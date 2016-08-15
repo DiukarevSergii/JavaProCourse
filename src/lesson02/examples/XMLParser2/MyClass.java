@@ -13,7 +13,7 @@ public class MyClass {
 
 	public static void main(String[] args) {
 		try {
-			File xmlFile = new File("c:\\Users\\Bios\\java_samples\\1.xml");
+			File xmlFile = new File("D:\\Program Files\\Java\\MainWorkspace\\JavaProCourse\\src\\lesson02\\examples\\XMLParser2\\1.xml");
 
 			DocumentBuilderFactory documentBuilderFactory = DocumentBuilderFactory.newInstance();
 			DocumentBuilder documentBuilder = documentBuilderFactory.newDocumentBuilder();
@@ -21,7 +21,7 @@ public class MyClass {
 			Document document = documentBuilder.parse(xmlFile);
 
 			Element root = document.getDocumentElement();
-			System.out.println("Корневой элемент: " + root.getNodeName());
+			System.out.println("Root element: " + root.getNodeName());
 			System.out.println("----------------------");
 
 			NodeList nodeList = root.getChildNodes();

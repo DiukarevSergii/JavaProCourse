@@ -1,4 +1,4 @@
-package lesson01.reflection;
+package lesson01.reflection.task;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.Modifier;
