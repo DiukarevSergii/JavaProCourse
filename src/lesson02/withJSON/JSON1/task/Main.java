@@ -1,4 +1,4 @@
-package lesson02.examples.JSON1.task;
+package lesson02.withJSON.JSON1.task;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -10,7 +10,7 @@ public class Main {
     public static void main(String[] args) throws Exception {
 
         byte[] buf;
-        RandomAccessFile f = new RandomAccessFile("D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\examples\\JSON1\\json.txt", "r");
+        RandomAccessFile f = new RandomAccessFile("D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\withJSON\\JSON1\\json.txt", "r");
         try {
             buf = new byte[(int)f.length()];
             f.read(buf);

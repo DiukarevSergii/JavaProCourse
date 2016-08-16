@@ -1,4 +1,4 @@
-package lesson02.examples.JSON3;
+package lesson02.withJSON.JSON3;
 
 public class JSON3 {
     String name;

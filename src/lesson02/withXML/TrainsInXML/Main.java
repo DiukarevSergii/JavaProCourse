@@ -12,7 +12,7 @@ public class Main {
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
 
             Trains trains = (Trains) unmarshaller.unmarshal(new File(
-                    "D:\\JAVA\\MainWorkspace\\JavaProCourse\\src\\lesson02\\examples\\TrainsInXML\\trainsList.xml"));
+                    "D:\\JAVA\\MainWorkspace\\JavaProCourse\\src\\lesson02\\withJSON\\TrainsInXML\\trainsList.xml"));
             System.out.println(trains);
 
         } catch (JAXBException e) {

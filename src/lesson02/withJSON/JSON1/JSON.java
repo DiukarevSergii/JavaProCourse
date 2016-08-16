@@ -1,4 +1,4 @@
-package lesson02.examples.JSON1;
+package lesson02.withJSON.JSON1;
 
 public class JSON {
     public Query query;

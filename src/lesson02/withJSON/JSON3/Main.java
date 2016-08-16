@@ -1,4 +1,4 @@
-package lesson02.examples.JSON3;
+package lesson02.withJSON.JSON3;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -7,7 +7,6 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
@@ -15,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
         StringBuilder builder = new StringBuilder();
         try (BufferedReader reader = new BufferedReader(new FileReader(
-                "D:\\JAVA\\MainWorkspace\\JavaProCourse\\src\\lesson02\\examples\\JSON3\\json.txt"))){
+                "D:\\JAVA\\MainWorkspace\\JavaProCourse\\src\\lesson02\\withJSON\\JSON3\\json.txt"))){
             String line;
             while ((line = reader.readLine()) != null){
                 builder.append(line);

@@ -8,7 +8,7 @@ public class Main {
     public static void main(String[] args)  {
         try {
             File f = new File(
-                    "D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\examples\\required\\required.xml");
+                    "D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\withJSON\\required\\required.xml");
             JAXBContext jaxbContext = JAXBContext.newInstance(Required.class);
 
             Required required = new Required();
@@ -20,7 +20,7 @@ public class Main {
             System.out.println();
 
             File file = new File(
-                    "D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\examples\\required\\requiredFalse.xml");
+                    "D:\\JAVA\\course\\JavaPro\\CodeSpace\\src\\lesson02\\withJSON\\required\\requiredFalse.xml");
             Unmarshaller unmarshaller = jaxbContext.createUnmarshaller();
             Required required1 = (Required) unmarshaller.unmarshal(file);
             System.out.println(required1.getS());
