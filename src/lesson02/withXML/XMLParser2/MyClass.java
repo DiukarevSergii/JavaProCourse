@@ -1,4 +1,4 @@
-package lesson02.examples.XMLParser2;
+package lesson02.withXML.XMLParser2;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

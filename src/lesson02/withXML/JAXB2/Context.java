@@ -1,4 +1,4 @@
-package lesson02.workwithXML.workwithJAXB;
+package lesson02.withXML.JAXB2;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

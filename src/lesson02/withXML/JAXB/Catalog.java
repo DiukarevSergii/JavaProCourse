@@ -1,4 +1,4 @@
-package lesson02.examples.JAXB;
+package lesson02.withXML.JAXB;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 import java.util.ArrayList;

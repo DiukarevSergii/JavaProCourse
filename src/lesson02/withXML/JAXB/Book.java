@@ -1,8 +1,7 @@
-package lesson02.examples.JAXB;
+package lesson02.withXML.JAXB;
 
 import java.util.Date;
 import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
 
 //@XmlRootElement(name = "book")
 public class Book {

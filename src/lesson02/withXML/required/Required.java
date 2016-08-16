@@ -1,4 +1,4 @@
-package lesson02.examples.required;
+package lesson02.withXML.required;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

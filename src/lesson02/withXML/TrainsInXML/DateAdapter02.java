@@ -1,11 +1,11 @@
-package lesson02.examples.TrainsInXML;
+package lesson02.withXML.TrainsInXML;
 
 import javax.xml.bind.annotation.adapters.XmlAdapter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class DateAdapter01 extends XmlAdapter<String,Date> {
-    private SimpleDateFormat dateFormat = new SimpleDateFormat("dd.MM.yyyy");
+public class DateAdapter02 extends XmlAdapter<String,Date> {
+    private SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm");
 
     @Override
     public String marshal(Date v) throws Exception {

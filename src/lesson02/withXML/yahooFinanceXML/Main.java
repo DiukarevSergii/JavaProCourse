@@ -1,4 +1,4 @@
-package lesson02.examples.yahooFinanceXML;
+package lesson02.withXML.yahooFinanceXML;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

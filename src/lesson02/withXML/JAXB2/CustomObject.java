@@ -1,4 +1,4 @@
-package lesson02.workwithXML.workwithJAXB;
+package lesson02.withXML.JAXB2;
 
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;

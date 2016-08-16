@@ -1,4 +1,4 @@
-package lesson02.examples.TrainsInXML;
+package lesson02.withXML.TrainsInXML;
 
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;

@@ -1,4 +1,4 @@
-package lesson02.examples.root;
+package lesson02.withXML.root;
 
 import javax.xml.bind.*;
 
