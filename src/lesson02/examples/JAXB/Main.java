@@ -11,8 +11,8 @@ public class Main {
     
     public static void main(String[] args) {
         Catalog catalog = new Catalog();
-        catalog.add(new Book("Author1", "Title1", 14.55, new Date()));
-        catalog.add(new Book("Author2", "Title2", 66, new Date()));
+        catalog.add(new Book("Author11", "Title1", 14.55, new Date()));
+        catalog.add(new Book("Author12", "Title2", 66, new Date()));
 
         try {
             File file = new File("D:/output.xml");

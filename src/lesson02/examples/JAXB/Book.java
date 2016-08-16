@@ -4,7 +4,7 @@ import java.util.Date;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlRootElement;
 
-@XmlRootElement(name="book")
+//@XmlRootElement(name = "book")
 public class Book {
 
     private String author;
@@ -21,11 +21,6 @@ public class Book {
         this.publishDate = publishDate;
     }
 
-    @Override
-    public String toString() {
-        return "[" + author + ", " + title + ", " + price + ", " + publishDate + "]";
-    }
-
     public Date getPublishDate() {
         return publishDate;
     }
@@ -39,7 +34,7 @@ public class Book {
         return price;
     }
 
-    @XmlElement
+//    @XmlElement
     public void setPrice(double price) {
         this.price = price;
     }
@@ -48,7 +43,7 @@ public class Book {
         return title;
     }
 
-    @XmlElement
+//    @XmlElement
     public void setTitle(String title) {
         this.title = title;
     }
@@ -57,8 +52,13 @@ public class Book {
         return author;
     }
 
-    @XmlElement
+//    @XmlElement
     public void setAuthor(String author) {
         this.author = author;
+    }
+
+    @Override
+    public String toString() {
+        return "[" + author + ", " + title + ", " + price + ", " + publishDate + "]";
     }
 }

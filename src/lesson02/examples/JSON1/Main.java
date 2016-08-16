@@ -17,13 +17,13 @@ public class Main {
 
         String result = performRequest(request);
 
-        Gson gson = new GsonBuilder().create();
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
         JSON json =  gson.fromJson(result, JSON.class);
 
         for (Rate rate : json.query.results.rate) {
             System.out.println(rate.id + " = " + rate.Rate);
         }
-        
+
         System.out.println("JSON: \n\t" + gson.toJson(json));
     }
 
